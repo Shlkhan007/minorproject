@@ -1,0 +1,41 @@
+* {
+  padding: 0px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #353535;
+  color: goldenrod;
+}
+
+header {
+  width: 980px;
+  margin: auto;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+header nav div h1 {
+  cursor: pointer;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font: 100;
+}
+/*# sourceMappingURL=style.css.map */
